@@ -59,17 +59,17 @@ vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
 
-<p> This program was written with PHP using yii2 avanced framework. You can use it to keep track of your customers' payments. </ P>
+<p> This program was written with PHP using yii2 advanced framework. You can use it to keep track of your customers' payments. </ P>
 
-<p> 1. To use the program, copy the e-invoice folder to the main directory of your server.
+<p> 1. To use the program, copy the e-fatura folder to the main directory of your server.
      For example, if local xampp is installed, copy it as <b> c:\xampp\htdocs\e-fatura </b>.
 <p> 2. Import the efatura.sql file with MySQL or MariaDB database.
-     Create a user named <b> fatura </b> in MySQL and set its password to <b> fatura </b>.
+     Create a user named <b> fatura </b> in MySQL and set its password as <b> fatura </b>.
      Authorize the user <b> fatura </b> for a database named <b> efatura </b>.
 <p> 3. Type the following in the browser's address bar to run: <b> http://localhost/e-fatura</b>
 
 
-<p>Bu program PHP ile beraber yii2 avanced framework kullanılarak yazılmıştır. Müşterilerinizin ödemelerini takip etmek amacıyla kullanabilirsiniz. </p>
+<p>Bu program PHP ile beraber yii2 advanced framework kullanılarak yazılmıştır. Müşterilerinizin ödemelerini takip etmek amacıyla kullanabilirsiniz. </p>
 
 <p> 1. Programı kullanabilmek için e-fatura klasörünü sunucunuzun ana dizinine kopyalayın. 
     Örneğin local xampp kuruluysa <b>c:\xampp\htdocs\e-fatura </b> olarak kopyalayın.
