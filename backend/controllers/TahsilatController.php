@@ -135,6 +135,9 @@ class TahsilatController extends Controller
             'SetFooter'=>['{PAGENO}'],
         ]
     ]);
+    ini_set('memory_limit', '4096M');
+    ini_set('max_execution_time', '300');
+    ini_set("pcre.backtrack_limit", "5000000");
       return $pdf->render();
   }
 
